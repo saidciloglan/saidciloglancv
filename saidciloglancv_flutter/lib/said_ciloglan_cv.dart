@@ -115,8 +115,7 @@ class ProfileInfo extends StatelessWidget {
 //            borderRadius: BorderRadius.circular(40),
           shape: BoxShape.circle,
           image: DecorationImage(
-            image: NetworkImage(
-                "https://firebasestorage.googleapis.com/v0/b/flutterfirebasedersleri-c65e1.appspot.com/o/user%2Fsaid?alt=media&token=d0613f40-879a-4e83-a2f9-489a13b713cb"),
+            image: AssetImage("assets/images/pp.jpg"),
             alignment: Alignment.center,
             fit: BoxFit.cover,
           ),
