@@ -4,15 +4,15 @@ import 'package:saidciloglancv_flutter/responsive_widget.dart';
 class SaidCiloglanCV extends StatelessWidget {
   List<Widget> navButtons() => [
         NavButton(
-          text: "about",
+          text: "hakkında",
           onPressed: () {},
         ),
         NavButton(
-          text: "work",
+          text: "iş",
           onPressed: () {},
         ),
         NavButton(
-          text: "contact",
+          text: "iletişim",
           onPressed: () {},
         ),
       ];
@@ -126,13 +126,13 @@ class ProfileInfo extends StatelessWidget {
     crossAxisAlignment: CrossAxisAlignment.start,
     children: <Widget>[
       Text(
-        "Hi there! My name is",
+        "Merhaba! Bendeniz",
         textScaleFactor: 2,
         style: TextStyle(color: Colors.orange),
       ),
       Text(
         "Said\nÇiloğlan",
-        textScaleFactor: 5,
+        textScaleFactor: 4,
         style: TextStyle(
           color: Colors.black,
           fontWeight: FontWeight.bold,
@@ -142,12 +142,13 @@ class ProfileInfo extends StatelessWidget {
         height: 10,
       ),
       Text(
-        "A Google Developer Expert for Flutter, Dart & Web Tech.\n"
-        "I am also a youtuber having MTechViral youtube channel\n"
-        "where I make tutorials for technology.",
+        "Gebze Teknik Üniversitesi\n"
+        "Elektronik Mühendisliği\n"
+        "Yapay Zeka, Robotik\n"
+        "Flutter, Dart, Java, Python",
         softWrap: true,
         textScaleFactor: 1.5,
-        style: TextStyle(color: Colors.white70),
+        style: TextStyle(color: Colors.black),
       ),
       SizedBox(
         height: 20,
@@ -157,7 +158,7 @@ class ProfileInfo extends StatelessWidget {
         children: <Widget>[
           RaisedButton(
             shape: StadiumBorder(),
-            child: Text("Resume"),
+            child: Text("Özgeçmiş"),
             color: Colors.red,
             onPressed: () {},
             padding: EdgeInsets.all(10),
@@ -170,7 +171,7 @@ class ProfileInfo extends StatelessWidget {
               color: Colors.red,
             ),
             shape: StadiumBorder(),
-            child: Text("Say Hi!"),
+            child: Text("Merhaba!"),
             color: Colors.red,
             onPressed: () {},
             padding: EdgeInsets.all(10),
